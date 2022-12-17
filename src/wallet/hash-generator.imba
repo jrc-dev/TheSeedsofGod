@@ -25,7 +25,7 @@ def argon_round1 wallet
 	argon_ops = {
 		pass: wallet.pass + wallet.pepper
 		salt: wallet.language + wallet.name + wallet.birthDate + wallet.email
-		time: wallet.time || 10
+		time: wallet.time || 1000
 		mem: wallet.mem || 16 * 1024
 		parallelism: wallet.parallelism || 4
 		hashLen: wallet.hashLen || 32
@@ -40,7 +40,7 @@ def argon_round2 wallet, wordsPattern, { hashHex }
 	argon_ops = {
 		pass: wordsPattern
 		salt: hashHex
-		time: wallet.time || 10
+		time: wallet.time || 1000
 		mem: wallet.mem || 16 * 1024
 		parallelism: wallet.parallelism || 4
 		hashLen: wallet.hashLen || 32

@@ -43,7 +43,7 @@ tag form-seed
 				
 				<neo-message> unless mnemonic
 
-			<button$btn type="submit" aria-busy="true" disabled route-to="/generator" @click=redefine_store> "Running…"
+			<button$btn type="submit" aria-busy="true" disabled route-to="/generator" @click=redefine_store> "PoW Running…"
 
 			<div[c:amber4 ta:center]> "Repeat all steps several times to ensure same sentence." if mnemonic
 
