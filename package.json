@@ -1,0 +1,29 @@
+{
+	"name": "seeds-of-god",
+	"description": "Pow Mnemonic sentence generator for Bitcoin",
+	"keywords": [
+		"bitcoin",
+		"bip39",
+		"argon2",
+		"mnemonic",
+		"border wallet"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jrc-dev/seedsofgod.git"
+	  },
+	"scripts": {
+		"dev": "imba --base . -w src/index.html",
+		"start": "npm run dev",
+		"build": "imba build --base . src/index.html --production",
+		"preview": "npx http-server dist"
+	},
+	"devDependencies": {
+		"imba": "2.0.0-alpha.225"
+	},
+	"dependencies": {
+		"argon2-wasm": "0.9.0",
+		"seedrandom": "3.0.5",
+		"web-bip39": "0.0.2"
+	}
+}
