@@ -16,7 +16,7 @@ npm install
 
 ## Demo
 
-[The Seeds Of God](https://railway.app/seedsofgod/)
+[The Seeds Of God](https://theseedsofgod-production.up.railway.app)
 
 ```
 Hosted here on GitHub Pages!
