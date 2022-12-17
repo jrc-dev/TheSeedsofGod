@@ -29,7 +29,7 @@ tag app
 			css a td:none
 			<p>
 				'Check out our code at '
-				<a href='https://github.com/jrc-dev/seedsofgod' target='_blank'> 'Github.com'
+				<a href='https://github.com/jrc-dev/TheSeedsofGod' target='_blank'> 'Github.com'
 				'.'
 			<p>
 				'Read out documentation here '
