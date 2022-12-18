@@ -22,7 +22,8 @@ let globalAppState = {
 		birthDate: ''
 		email: ''
 		pass: ''		
-		pepper: ''
+		pepperLeft: ''
+		pepperRight: ''
 		selectedCells:[]
 	}
 }

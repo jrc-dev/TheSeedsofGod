@@ -53,13 +53,15 @@ tag form-pattern
 
 		let orderedCells = Array.from(selectedCells).sort(sort_cells)
 		appState.wallet.selectedCells = orderedCells.map(do(a) JSON.parse(a))
-		appState.wallet.pepper = appState.wallet.selectedCells.slice(0,3).reduce(pepper,'')
+		appState.wallet.pepperLeft = appState.wallet.selectedCells.slice(0,3).reduce(pepper,'')
+		appState.wallet.pepperRight = appState.wallet.selectedCells.slice(-3).reduce(pepper,'')
 		appState.step = 'three'
 		clear_all!
 
 	###
 	Pepper is a secret added to password during hashing 
-	The first three selected positions on your selected Pattern Grid are your pepper
+	The first three selected positions on your selected Pattern Grid are your pepperLeft for password
+	The Last three selected positions on your selected Pattern Grid are your pepperRight for salt
 	Ex: c0l0c0l1c0l2
 	###
 	def pepper a,b

@@ -56,14 +56,14 @@ tag form-salt
 					"Email"
 					<mind-tooltip>
 					<help-tooltip>
-					<help-tooltip title="Help us to individualize you data during encryption, since in theory, only you easy remember it and use this information.">
+					<help-tooltip title="Help us to individualize you data during encryption, in theory, only you easy remember it.">
 					<input$email type="email" autocomplete="off" required @keyup=($email.setAttribute('aria-invalid', !$email.checkValidity!))>
 					<small[fs:sm c:gray5]> "We never send or share your email."
 
 				<label>
 					"Passphrase or Password (optional)"
 					<mind-tooltip>
-					<help-tooltip title="Passphrases are longer and more secure than passwords. Typically consist of multiple words, numbers, or other characters.">
+					<help-tooltip title="Passphrases are longer and more secure than passwords.">
 					<input$pass type="text" minLength=5 autocomplete="off"
 						pattern="^[\x21-\x7E]+$" title="Space characters are not allowed" 
 						@keyup=($pass.setAttribute('aria-invalid', !$pass.checkValidity!)) >
@@ -80,7 +80,7 @@ tag mind-tooltip
 		<em[pl:2px] data-tooltip="You must memorize this information!"> "🧠"
 
 tag help-tooltip
-	prop title="Salt Field: Protect against duplicate or common passwords and defend against attacks that use precomputed tables."
+	prop title="Protect against duplicate or common passwords and defend against attacks of precomputed tables."
 	<self[d:inline-block fs:md]>
 		<em[pl:3px c:gray5] data-placement="right" data-tooltip=title> "?"
 

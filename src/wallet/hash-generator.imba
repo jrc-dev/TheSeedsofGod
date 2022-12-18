@@ -16,8 +16,8 @@ export def argon_hash wallet
 # First round with Argon2
 def argon_round1 wallet
 	argon_ops = {
-		pass: wallet.pass + wallet.pepper
-		salt: wallet.language + wallet.name + wallet.birthDate + wallet.email
+		pass: wallet.pass + wallet.pepperLeft
+		salt: wallet.language + wallet.name + wallet.birthDate + wallet.email + wallet.pepperRight
 		time: wallet.time || 500
 		mem: wallet.mem || 16 * 1024
 		parallelism: wallet.parallelism || 4
@@ -25,6 +25,7 @@ def argon_round1 wallet
 		type: argon2.types.Argon2id
 		distPath: 'dist'
 	}
+	console.log wallet
 	let result = await argon2.hash(argon_ops)
 	result
 

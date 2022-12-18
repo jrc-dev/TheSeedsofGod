@@ -33,16 +33,6 @@ tag generator
 					'.'
 				<p> "💡 It is important that you are able to remember, save and protect information that you use here, at any point in your life!"
 			
-			<div[d:flex j:center]>
-				<button-generator route-to="mnemonic/new" title="Generate Mnemonic"> 
-				<button-generator route-to="mnemonic/recover" title="Recover Mnemonic">
-
-tag button-generator
-	prop title 
-	<self> 
-		title
-		css d:inline-block user-select:none cursor:pointer bg:var(--primary) c:white fw:500
-			p:2.5 5 m:6 bd:1px solid amber4 rd:4 tween:border-color 250ms
-			bc@hover:indigo5
-
-
+			<div[d:hflex mx:15]>
+				<button[p:15px m:1.5rem] @click.prevent route-to="mnemonic/new"> "Generate Mnemonic"
+				<button[p:15px m:1.5rem] @click.prevent route-to="mnemonic/recover"> "Recover Mnemonic" 

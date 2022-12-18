@@ -12,7 +12,7 @@ tag app
 	<self.container>
 		<header[d:flex jc:center]>
 			<img.wing width=45 height=35 src='./styles/imba.svg'>
-			<nav[d@lg:inline-flex ai:center  p:1rem ta:center width@lg:680px ]>
+			<nav[d@lg:inline-flex ai:center p:1rem ta:center width@lg:680px ]>
 				<a route-to="/"> "Home"
 				<a route-to='/generator' @click=redefine_store> "Generator"
 				<a route-to='/about'> "About"

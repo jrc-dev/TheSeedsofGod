@@ -19,7 +19,7 @@ npm install
 [The Seeds Of God](https://theseedsofgod-production.up.railway.app)
 
 ```
-Hosted for demo only on here railway!
+Hosted for demo only by railway!
 ```
 
 ## Usage
