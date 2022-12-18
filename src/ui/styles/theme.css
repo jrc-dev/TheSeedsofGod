@@ -18,8 +18,8 @@
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --primary: #d81b60;
-    --primary-hover: #e91e63;
+    --primary: hsla(37.69, 92.13%, 50.2%, 100%);
+    --primary-hover: hsla(43.26, 96.41%, 56.27%, 100%);
     --primary-focus: rgba(216, 27, 96, 0.25);
     --primary-inverse: #FFF;
   }
@@ -28,8 +28,8 @@
 /* Pink Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-  --primary: #d81b60;
-  --primary-hover: #e91e63;
+  --primary: hsla(37.69, 92.13%, 50.2%, 100%);
+  --primary-hover: hsla(43.26, 96.41%, 56.27%, 100%);
   --primary-focus: rgba(216, 27, 96, 0.25);
   --primary-inverse: #FFF;
 }
