@@ -85,7 +85,8 @@ tag faq
 							<div> "let passwordOrPassphrase = 123456;"
 							<div> "let salt = englishhalfinney1956-05-04hal@gmail.com;"
 							<div> "let passwordWithSalt = password + salt; //Well definitely more harder to break then the password alone"
-							<div> "let hash = Argon2(passwordWithSalt); //Hash this for 15 minutes"
+							<div> "let randomWords = UserPattern();"
+							<div> "let hash = Argon2(passwordWithSalt + randomWords); //Hash this for 15 minutes"
 
 				<p> "Argon protects against brute force attacks, making the process more expensive, as it uses energy,time, cpu and memory ram, like a PoW to hash a passwords, the passphrase and the user pattern are the random elements of the step and the salts individualize the attack."
 
