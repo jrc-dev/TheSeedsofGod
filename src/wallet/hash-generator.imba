@@ -15,7 +15,7 @@ export def argon_hash wallet
 
 # First round with Argon2
 def argon_round1 wallet
-	argon_ops = {
+	let argon_ops = {
 		pass: wallet.pass + wallet.pepperLeft
 		salt: wallet.language + wallet.name + wallet.birthDate + wallet.email + wallet.pepperRight
 		time: wallet.time || 500
@@ -25,13 +25,12 @@ def argon_round1 wallet
 		type: argon2.types.Argon2id
 		distPath: 'dist'
 	}
-	console.log wallet
 	let result = await argon2.hash(argon_ops)
 	result
 
 # Second round with Argon2
 def argon_round2 wallet, wordsPattern, { hashHex }
-	argon_ops = {
+	let argon_ops = {
 		pass: wordsPattern
 		salt: hashHex
 		time: wallet.time || 500

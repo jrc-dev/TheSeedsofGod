@@ -1,0 +1,111 @@
+[
+  {
+    "user": {
+      "language": "english",
+      "name": "satoshinakamoto",
+      "birthDate": "2008-10-31",
+      "email": "satoshi@anonymousspeech.com",
+      "pass": "bailout",
+      "pepperLeft": "c0l0c1l0c2l0",
+      "pepperRight": "c0l0c1l0c2l0",
+      "selectedCells": [
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 0
+        }
+      ],
+      "time": 5
+    },
+    "result": {
+      "hashHex": "359ce974be57e4a96cae33cc5bd51e0f615eb40f22a0dfa133b8fd6d7b2a759a"
+    }
+  },
+  {
+    "user": {
+      "language": "english",
+      "name": "Hal Finney",
+      "birthDate": "1956-5-4",
+      "email": "hal.finney@gmail.com",
+      "pass": "Jan112009",
+      "pepperLeft": "c0l0c1l0c2l0",
+      "pepperRight": "c0l0c1l0c2l0",
+      "selectedCells": [
+        {
+          "col": 0,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 0
+        }
+      ],
+      "time": 5
+    },
+    "result": {
+      "hashHex": "bbd60970e91551c8cee6cb51711833fb5a0a087b4277dda9dc75bf130a199628"
+    }
+  },
+  {
+    "user": {
+      "language": "english",
+      "name": "Casper",
+      "birthDate": "1956-5-4",
+      "email": "casper@gmail.com",
+      "pass": "",
+      "pepperLeft": "",
+      "pepperRight": "",
+      "selectedCells": [],
+      "time": 5
+    },
+    "result": {
+      "hashHex": "0081ce3ead09da51eca94789beb2fc0e5866519ce900664e2bcfefc7be6584b9"
+    }
+  },
+  {
+    "user": {
+      "language": "english",
+      "name": "Gaspare",
+      "birthDate": "1956-5-4",
+      "email": "casper@gmail.com",
+      "pass": "12345",
+      "pepperLeft": "",
+      "pepperRight": "",
+      "selectedCells": [],
+      "time": 5
+    },
+    "result": {
+      "hashHex": "8ae22b5f8c28c67b7c0c642b20e952a2013f90886762f50f75ba0a3d00fcaa6f"
+    }
+  },
+  {
+    "user": {
+      "language": "english",
+      "name": "Gaspard",
+      "birthDate": "1956-5-4",
+      "email": "casper@gmail.com",
+      "pass": "",
+      "pepperLeft": "c0l0",
+      "pepperRight": "c0l0",
+      "selectedCells": [{
+        "col": 0,
+        "row": 0
+      }],
+      "time": 5
+    },
+    "result": {
+      "hashHex": "9f21b788677de38f990e336490b56185fb57ab2b3cd098f0e23384d3dbfdf9dc"
+    }
+  }
+]

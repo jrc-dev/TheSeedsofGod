@@ -80,7 +80,7 @@ tag mind-tooltip
 		<em[pl:2px] data-tooltip="You must memorize this information!"> "🧠"
 
 tag help-tooltip
-	prop title="Protect against duplicate or common passwords and defend against attacks of precomputed tables."
+	prop title="Protect against duplicate or common passwords and defend against attacks with precomputed tables."
 	<self[d:inline-block fs:md]>
 		<em[pl:3px c:gray5] data-placement="right" data-tooltip=title> "?"
 
