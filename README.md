@@ -24,7 +24,7 @@ Hosted for demo only by railway!
 
 ## Usage
 
-Download and execute the index.html inside of /Dist folder 
+Download, [build](#building) and execute the index.html inside of /Dist folder
 
 ```
 /dist/index.html
