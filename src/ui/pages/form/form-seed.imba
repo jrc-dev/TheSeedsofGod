@@ -79,7 +79,7 @@ tag mnemonic-result
 tag neo-message
 	prop info = [
 		"Wake up Neo."
-		"They want your Bitcoins."
+		"They want your bitcoin."
 		"But we won't make it easy."
 		"As we chat here..."
 		"We are using your computing power(...CPU and Memory)."
