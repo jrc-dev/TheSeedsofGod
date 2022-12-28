@@ -26,7 +26,7 @@ tag faq
 			
 			<details>
 				<summary> "Can TSG be hacked?"
-				<p> "As all other Bitcoins tools, yes! TSG can be hacked if someone is able to guess your lang,name,date of birth,passphrase, user-pattern and wait the same Argon2 hash configurations. However, this is very difficult to do if you choose a strong, unique passphrase and user-pattern that is not easily guessable. It's also important to remember that you are the only one who knows your passphrase, so it's important to keep it safe and not share it with anyone."
+				<p> "As all other Bitcoin tools, yes! TSG can be hacked if someone is able to guess your lang,name,date of birth,passphrase, user-pattern and wait the same Argon2 hash configurations. However, this is very difficult to do if you choose a strong, unique passphrase and user-pattern that is not easily guessable. It's also important to remember that you are the only one who knows your passphrase, so it's important to keep it safe and not share it with anyone."
 			
 			<details>
 				<summary> "I intend to use this as a Brain Wallet!"
