@@ -3,6 +3,7 @@ import './styles/styles'
 import './pages/home'
 import './pages/generator'
 import './pages/faq'
+import './pages/derive'
 
 tag app
 
@@ -15,13 +16,14 @@ tag app
 			<nav[d@lg:inline-flex ai:center p:1rem ta:center width@lg:680px ]>
 				<a route-to="/"> "Home"
 				<a route-to='/generator' @click=redefine_store> "Generator"
-				<a route-to='/about'> "About"
+				<a route-to='/derive'> "Derive"
 				<a route-to='/faq'> "Faq"
 
 		<main[max-width:1280px width:80% m:0 auto]>
 			<home route="/">
 			<home route="/home">
 			<generator route="/generator">
+			<derive route="/derive">
 			<faq route="/faq">
 
 		<footer[p:2rem ta:center]>

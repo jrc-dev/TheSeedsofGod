@@ -1,8 +1,8 @@
-import './form/form-salt'
-import './form/form-pattern'
-import './form/form-seed'
+import './form-salt'
+import './form-pattern'
+import './form-seed'
 
-tag mnemonic-generator
+tag form_layout
 
 	page = {
 		new: yes

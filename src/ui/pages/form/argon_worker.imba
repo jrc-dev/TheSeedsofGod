@@ -1,4 +1,4 @@
-import { argon_hash } from '../../wallet/hash-generator'
+import { argon_hash } from '../../../wallet/hash-generator'
 
 ###
 The use of web workers and WebAssembly allows for efficient, parallelized execution of Argon's algorithm 

@@ -1,5 +1,5 @@
 import bip39_mnemonic from '../../../wallet/bip39'
-const ArgonWorker = import.worker '../argon_worker'
+const ArgonWorker = import.worker './argon_worker'
 const argonWorker = new ArgonWorker!
 
 tag form-seed

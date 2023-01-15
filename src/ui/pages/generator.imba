@@ -1,4 +1,4 @@
-import './mnemonic-generator'
+import './form/form_layout'
 import '../commom/store'
 
 tag generator
@@ -7,8 +7,8 @@ tag generator
 		window.scrollTo(0,0)
 
 	<self>
-		<mnemonic-generator route="mnemonic/new">
-		<mnemonic-generator route="mnemonic/recover">
+		<form_layout route="mnemonic/new">
+		<form_layout route="mnemonic/recover">
 
 		<article route="">
 			css p fs:medium c:amber3
