@@ -73,13 +73,13 @@ tag form-pattern
 	css .row 
 		d:grid
 	css .cell
-		bgc:white ta:center p:10px bd:1px solid #ccc c:black
+		bgc:white ta:center p:10px bd:1px bs:solid bc:gray3 c:black
 		transition: background-color 0.2s ease-in
 		@active bgc:amber4 cursor:grabbing
 	css .headercell
-		ta:center bd:1px solid #ddd
+		ta:center bd:1px bs:solid bc:gray4
 		fw:bold fs:13px bgc:warmer2 c:gray8
-		bdb:1px solid #27272a
+		
 	css .excel 
 		d:grid gtc: 5% 86% jac:center cursor:grab
 	css .gridnumbers

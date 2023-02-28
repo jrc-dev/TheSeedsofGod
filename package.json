@@ -20,7 +20,7 @@
 		"preview": "npx http-server dist"
 	},
 	"devDependencies": {
-		"imba": "2.0.0-alpha.225"
+		"imba": "2.0.0-alpha.226"
 	},
 	"dependencies": {
 		"argon2-wasm": "0.9.0",

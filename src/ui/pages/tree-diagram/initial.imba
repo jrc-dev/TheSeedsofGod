@@ -4,13 +4,13 @@ export default {
 	"iDepth": 0,
 	"values": [
 		{
-			"key": "Telecom",
+			"key": "My Apps",
 			"values": [
 				{
-					"key": "Application",
+					"key": "Nostr Family",
 					"values": [
 						{
-							"key": "Business Application",
+							"key": "My Account",
 							"values": [
 								{
 									"key": "Finance",
@@ -81,7 +81,7 @@ export default {
 							"REF_Amount": "USD"
 						},
 						{
-							"key": "Delivery Services",
+							"key": "My Fake Account",
 							"values": [
 								{
 									"key": "Customer Services",
@@ -1693,10 +1693,10 @@ export default {
 			"REF_Amount": "USD"
 		},
 		{
-			"key": "Facilities & Power",
+			"key": "Bitcoin Wallets",
 			"values": [
 				{
-					"key": "Application",
+					"key": "Trezor Wallet",
 					"values": [
 						{
 							"key": "Business Application",
@@ -2118,7 +2118,7 @@ export default {
 					"REF_Amount": "USD"
 				},
 				{
-					"key": "Data Center",
+					"key": "Coldcard Wallet",
 					"values": [
 						{
 							"key": "Business Application",
@@ -2540,7 +2540,7 @@ export default {
 					"REF_Amount": "USD"
 				},
 				{
-					"key": "End User",
+					"key": "Hot Wallet",
 					"values": [
 						{
 							"key": "Business Application",
@@ -3393,10 +3393,10 @@ export default {
 			"REF_Amount": "USD"
 		},
 		{
-			"key": "Internal Labor",
+			"key": "Other Wallets",
 			"values": [
 				{
-					"key": "Application",
+					"key": "DeFi",
 					"values": [
 						{
 							"key": "Business Application",

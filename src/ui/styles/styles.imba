@@ -1,4 +1,4 @@
-import "./pico.css"
+import "../../3rd/pico.css"
 import "./theme.css"
 
 global css @root ff:Arial c:white/87 bg:black/85
