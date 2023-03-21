@@ -58,7 +58,7 @@ tag mnemonic-result
 
 	def render
 		<self>
-			<h6[c:amber4 ta:center mx:40px]> "Your BIP39 Mnemonic 24 words"
+			<h6[c:amber4 ta:center mx:40px]> "Your BIP39 Mnemonic {mnemonic.split(' ').length} words"
 			<div.blur[d:grid gtc:repeat(3, 1fr) jai:center]>
 				for word in mnemonic.split(' ')
 					<div.box>

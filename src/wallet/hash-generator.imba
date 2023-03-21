@@ -21,7 +21,7 @@ def argon_round1 wallet
 		time: wallet.time || 500
 		mem: wallet.mem || 16 * 1024
 		parallelism: wallet.parallelism || 4
-		hashLen: wallet.hashLen || 32
+		hashLen: wallet.hashLen || 16
 		type: argon2.types.Argon2id
 		distPath: 'dist'
 	}
@@ -36,7 +36,7 @@ def argon_round2 wallet, wordsPattern, { hashHex }
 		time: wallet.time || 500
 		mem: wallet.mem || 16 * 1024
 		parallelism: wallet.parallelism || 4
-		hashLen: wallet.hashLen || 32
+		hashLen: wallet.hashLen || 16
 		type: argon2.types.Argon2id
 		distPath: 'dist'
 	}

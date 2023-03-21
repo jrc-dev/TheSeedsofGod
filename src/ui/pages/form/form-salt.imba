@@ -13,29 +13,36 @@ tag form-salt
 		appState.wallet.birthDate = $birthDate.value
 		appState.wallet.email = $email.value
 		appState.wallet.pass = $pass.value
+		appState.wallet.hashLen = $hashLen.value
 		$formWallet.reset!
 
 	<self>
 		<div[fs:md c:gray4 pb:10px]> "Salt Fields. Please read our {<a href="/faq"> "documentation"} and understand why we ask for personal data here."
 		<form$formWallet[fs@lg:18px]>
 			<fieldset>
-				<label> 
-					"Language" 
-					<mind-tooltip>
-					<help-tooltip>
-					<help-tooltip title="Regarding the language(Official BIP39 Word List (mnemonic)) of your seed phrase.">
-					<select$language required>
-						<option value="" selected> ""
-						<option value="english"> "English"
-						<option value="portuguese"> "Portuguese"
-						<option value="french"> "French"
-						<option value="italian"> "Italian"
-						<option value="japanese"> "Japanese"
-						<option value="korean"> "Korean"
-						<option value="spanish"> "Spanish"
-						<option value="czech"> "Czech"
-						<option value="chinese-traditional"> "Chinese-traditional"
-						<option value="chinese-simplified"> "Chinese-simplified"
+				<div.grid>
+					<label>
+						"Language" 
+						<mind-tooltip>
+						<help-tooltip>
+						<help-tooltip title="Regarding the language(Official BIP39 Word List (mnemonic)) of your seed phrase.">
+						<select$language required>
+							<option value="" selected> ""
+							<option value="english"> "English"
+							<option value="portuguese"> "Portuguese"
+							<option value="french"> "French"
+							<option value="italian"> "Italian"
+							<option value="japanese"> "Japanese"
+							<option value="korean"> "Korean"
+							<option value="spanish"> "Spanish"
+							<option value="czech"> "Czech"
+							<option value="chinese-traditional"> "Chinese-traditional"
+							<option value="chinese-simplified"> "Chinese-simplified"
+					<label>
+						"Words"
+						<select$hashLen required>
+							<option value="16" selected> "12 words"
+							<option value="32"> "24 words"
 
 				<label> 
 					"Full name"
