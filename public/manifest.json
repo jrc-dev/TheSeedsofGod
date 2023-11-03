@@ -1,0 +1,22 @@
+{
+  "entry:src/index.imba?web": {
+    "url": "./assets/index.W32UX726.js",
+    "path": "/home/jose/projects/TheSeedsofGod/public/assets/index.W32UX726.js"
+  },
+  "entry:src/ui/pages/form/argon_worker.imba?worker&url": {
+    "url": "./assets/argon_worker.A2MNTQDZ.worker.js",
+    "path": "/home/jose/projects/TheSeedsofGod/public/assets/argon_worker.A2MNTQDZ.worker.js"
+  },
+  "*?css": {
+    "url": "./assets/index.VMLF5C0U.css",
+    "path": "/home/jose/projects/TheSeedsofGod/public/assets/index.VMLF5C0U.css"
+  },
+  "./index.html": {},
+  "./assets/imba.Y2WSZ3SS.svg": {},
+  "./assets/Diagram.KQV2FDUH.svg": {},
+  "./assets/index.W32UX726.js": {},
+  "./assets/index.53BSAMM2.css": {},
+  "./assets/argon_worker.A2MNTQDZ.worker.js": {},
+  "./assets/index.VMLF5C0U.css": {},
+  "main": "index.html"
+}

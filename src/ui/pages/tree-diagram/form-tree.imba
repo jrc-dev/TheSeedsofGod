@@ -40,12 +40,11 @@ tag form-tree
 		else
 			selectedNode.background = "linear-gradient(to right, {selectedNode.color} 10%, {selectedNode.color} 90%)";
 			selectedNode.key = "Master Seed"
-		# console.log selectedNode
 		derivePath(selectedNode)
 
 	def derivePath(node)
 		let path = "m/85'/0'/{node.depth}'/0/{node.iDepth}"
-		path = "m/44'/1237'/0'/0/0"
+		# path = "m/44'/1237'/0'/0/0"
 		address(seed,path)
 		
 

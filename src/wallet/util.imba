@@ -9,6 +9,6 @@ export def to_bytes data
 	data
 
 # convert bytes to hex string
-export def to_hex hashArray 
+export def to_hex hashArray
 	const hashHex = Array.from(hashArray).map(do(b) b.toString(16).padStart(2, '0')).join('')
 	hashHex

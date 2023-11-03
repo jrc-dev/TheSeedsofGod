@@ -17,7 +17,6 @@ tag form-salt
 		$formWallet.reset!
 
 	<self>
-		<div[fs:md c:gray4 pb:10px]> "Salt Fields. Please read our {<a href="/faq"> "documentation"} and understand why we ask for personal data here."
 		<form$formWallet[fs@lg:18px]>
 			<fieldset>
 				<div.grid>
@@ -40,10 +39,11 @@ tag form-salt
 							<option value="chinese-simplified"> "Chinese-simplified"
 					<label>
 						"Words"
+						<mind-tooltip>
 						<select$hashLen required>
 							<option value="16" selected> "12 words"
 							<option value="32"> "24 words"
-
+				<div[fs:md c:gray4 pb:10px]> "Salt Fields. Please read our {<a href="/faq"> "documentation"} and understand why we ask for personal data here."
 				<label> 
 					"Full name"
 					<mind-tooltip>
@@ -68,10 +68,10 @@ tag form-salt
 					<small[fs:sm c:gray5]> "We never send or share your email."
 
 				<label>
-					"Passphrase or Password (optional)"
+					"Passphrase"
 					<mind-tooltip>
 					<help-tooltip title="Passphrases are longer and more secure than passwords.">
-					<input$pass type="text" minLength=5 autocomplete="off"
+					<input$pass type="text" minLength=5 autocomplete="off" required
 						pattern="^[\x21-\x7E]+$" title="Space characters are not allowed" 
 						@keyup=($pass.setAttribute('aria-invalid', !$pass.checkValidity!)) >
 				

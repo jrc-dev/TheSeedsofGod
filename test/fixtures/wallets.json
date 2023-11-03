@@ -6,6 +6,7 @@
       "birthDate": "2008-10-31",
       "email": "satoshi@anonymousspeech.com",
       "pass": "bailout",
+      "hashLen": 32,
       "pepperLeft": "c0l0c1l0c2l0",
       "pepperRight": "c0l0c1l0c2l0",
       "selectedCells": [
@@ -35,6 +36,7 @@
       "birthDate": "1956-5-4",
       "email": "hal.finney@gmail.com",
       "pass": "Jan112009",
+      "hashLen": 32,
       "pepperLeft": "c0l0c1l0c2l0",
       "pepperRight": "c0l0c1l0c2l0",
       "selectedCells": [
@@ -64,6 +66,7 @@
       "birthDate": "1956-5-4",
       "email": "casper@gmail.com",
       "pass": "",
+      "hashLen": 32,
       "pepperLeft": "",
       "pepperRight": "",
       "selectedCells": [],
@@ -79,6 +82,7 @@
       "name": "Gaspare",
       "birthDate": "1956-5-4",
       "email": "casper@gmail.com",
+      "hashLen": 32,
       "pass": "12345",
       "pepperLeft": "",
       "pepperRight": "",
@@ -96,6 +100,7 @@
       "birthDate": "1956-5-4",
       "email": "casper@gmail.com",
       "pass": "",
+      "hashLen": 32,
       "pepperLeft": "c0l0",
       "pepperRight": "c0l0",
       "selectedCells": [{

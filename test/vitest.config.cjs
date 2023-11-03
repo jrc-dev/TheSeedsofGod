@@ -9,6 +9,7 @@ module.exports = defineConfig({
 	},
 	test: {
 		globals: true,
+		environment:'jsdom',
 		watch: false,
 		include: ["**/*.{test,spec}.{imba,js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
 	},

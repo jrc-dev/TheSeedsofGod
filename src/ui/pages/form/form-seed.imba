@@ -21,7 +21,7 @@ tag form-seed
 			$btn.setAttribute('aria-busy', no)
 			$btn.removeAttribute('disabled')
 			$btn.textContent = "Let's do it all again"
-
+			console.log(appState.wallet)
 			let bip39_result = await bip39_mnemonic(appState.wallet,e.data.hash)
 			hashHex = e.data.hashHex
 			mnemonic = bip39_result.mnemonic
